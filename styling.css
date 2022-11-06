@@ -1,6 +1,7 @@
 /*styling.css*/
 html{
     height: 100%;
+    width: 80vw;
     background: radial-gradient(circle, #fff, #ccc);
     background: -webkit-radial-gradient(circle, #fff, #ccc);   
     background: -o-radial-gradient(circle, #fff, #ccc);   
@@ -8,7 +9,7 @@ html{
 }
 
 #container{
-    height: 400px;
+    height: 600px;
     width: 550px;
     background-color: #ff00ea;
     margin: 100px auto;
@@ -32,6 +33,13 @@ html{
     -webkit-box-shadow: 0px 4px 0px #242424;
 }
 
+#Jalia{
+    color: #ffffff;
+    padding: 11px;
+    position: absolute;
+    left: 10px;
+}
+
 #correct{
     position: absolute;
     left: 260px;
@@ -52,8 +60,8 @@ html{
 
 #question{
     width: 450px;
-    height: 150px;
-    margin: 50px auto 10px auto;
+    height: 250px;
+    margin: 150px auto 10px auto;
     background-color: #141414;
     box-shadow: 0px 4px #2b2b2b;
     -moz-box-shadow: 0px 4px #2b2b2b;
@@ -148,7 +156,7 @@ html{
     width: 152px;
     padding: 10px;
     position: absolute;
-    top: 395px;
+    top: 590px;
     left: 400px;
     background-color: #bd2dff;
     border-radius: 3px;
