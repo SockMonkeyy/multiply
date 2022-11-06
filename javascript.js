@@ -102,15 +102,21 @@ function startCountdown(){
         timeremaining -= 1;
         document.getElementById("timeremainingvalue").innerHTML = timeremaining;
         if(timeremaining == 0){// game over
+            if(score > 15){
+                document.getElementById("gameOver").innerHTML = "<p>Game over!</p><p>Good Job Your score is " + score + ".</p>";   
+            }
+            if(score <= 15)
+                document.getElementById("gameOver").innerHTML = "<p>Game over!</p><p>Try Harder Your score is " + score + ".</p>";
+            
             stopCountdown();
             show("gameOver");
-         document.getElementById("gameOver").innerHTML = "<p>Game over!</p><p>Good Job Jalia Your score is " + score + ".</p>";   
+            
             hide("timeremaining");
             hide("correct");
             hide("wrong");
             playing = false;
             document.getElementById("startreset").innerHTML = "Start Game";
-        }
+        } 
     }, 1000);    
 }
 
