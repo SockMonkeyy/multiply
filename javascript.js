@@ -135,7 +135,7 @@ function show(Id){
 //generate question and multiple answers
 
 function generateQA(){
-    var x = 1+ Math.round(12*Math.random());
+    var x = 1+ Math.round(11*Math.random());
     // For Random through 9
     // var y = 1+ Math.round(9*Math.random());
     // For a Specific Number
