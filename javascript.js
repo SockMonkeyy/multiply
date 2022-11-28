@@ -145,7 +145,7 @@ function generateQA(){
     // For Random through 9
     // var y = 1+ Math.round(9*Math.random());
     // For a Specific Number
-    var y = 12;
+    var y = 2;
     correctAnswer = x*y;
     document.getElementById("question").innerHTML = x + "x" + y;
     var correctPosition = 1+ Math.round(3*Math.random());
