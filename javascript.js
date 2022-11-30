@@ -143,9 +143,9 @@ function show(Id){
 function generateQA(){
     var x = 1+ Math.round(11*Math.random());
     // For Random through 9
-    // var y = 1+ Math.round(9*Math.random());
+    var y = 1+ Math.round(5*Math.random());
     // For a Specific Number
-    var y = 3;
+      // var y = 3;
     correctAnswer = x*y;
     document.getElementById("question").innerHTML = x + "x" + y;
     var correctPosition = 1+ Math.round(3*Math.random());
