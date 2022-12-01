@@ -143,7 +143,7 @@ function show(Id){
 function generateQA(){
     var x = 1+ Math.round(11*Math.random());
     // For Random through 9
-    var y = 1+ Math.round(5*Math.random());
+    var y = 1+ Math.round(11*Math.random());
     // For a Specific Number
       // var y = 3;
     correctAnswer = x*y;
